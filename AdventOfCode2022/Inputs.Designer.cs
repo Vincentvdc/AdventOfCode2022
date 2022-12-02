@@ -22,7 +22,7 @@ namespace AdventOfCode2022 {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Inputs {
+    public class Inputs {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace AdventOfCode2022 {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AdventOfCode2022.Inputs", typeof(Inputs).Assembly);
@@ -51,7 +51,7 @@ namespace AdventOfCode2022 {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -153,9 +153,146 @@ namespace AdventOfCode2022 {
         ///3859
         ///7 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Day1 {
+        public static string Day1 {
             get {
                 return ResourceManager.GetString("Day1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to B Z
+        ///B Z
+        ///C Z
+        ///C Z
+        ///B X
+        ///C Y
+        ///A Y
+        ///B Z
+        ///A Z
+        ///A Y
+        ///C Z
+        ///C X
+        ///C Z
+        ///C X
+        ///B X
+        ///B Z
+        ///B Z
+        ///A Z
+        ///C Z
+        ///C Z
+        ///C Y
+        ///C Z
+        ///B Z
+        ///B Z
+        ///A X
+        ///A Y
+        ///B Z
+        ///B Z
+        ///C Z
+        ///B Z
+        ///B Z
+        ///C X
+        ///C Z
+        ///A Y
+        ///A X
+        ///A X
+        ///C Z
+        ///C Z
+        ///B X
+        ///C X
+        ///B Z
+        ///A Z
+        ///B X
+        ///B Z
+        ///B Z
+        ///A Z
+        ///B Z
+        ///A Y
+        ///C Z
+        ///C Z
+        ///B X
+        ///C Z
+        ///A Z
+        ///C Z
+        ///C Z
+        ///C Z
+        ///C Z
+        ///A Z
+        ///B Z
+        ///C Z
+        ///A Z
+        ///C Z
+        ///C Z
+        ///C Y
+        ///A Y
+        ///C X
+        ///C Z
+        ///C Z
+        ///C Z
+        ///C Z
+        ///A Y
+        ///C X
+        ///A Y
+        ///A Y
+        ///C X
+        ///B Z
+        ///A Y
+        ///C Y
+        ///C Z
+        ///B Z
+        ///C Z
+        ///B Z
+        ///B Z
+        ///B Z
+        ///C Y
+        ///B Z
+        ///A Y
+        ///C Z
+        ///C Z
+        ///A X
+        ///C X
+        ///C Z
+        ///A X
+        ///C Z
+        ///C Z
+        ///C X
+        ///A Z
+        ///C Z
+        ///C Z
+        ///B Z
+        ///C Y
+        ///A Y
+        ///C Y
+        ///C Y
+        ///A Z
+        ///B Z
+        ///C Z
+        ///C Z
+        ///C Z
+        ///A Z
+        ///C Z
+        ///B X
+        ///C Z
+        ///A Y
+        ///C Z
+        ///C X
+        ///C Y
+        ///C Y
+        ///B Z
+        ///C Z
+        ///C Z
+        ///A X
+        ///C X
+        ///C Z
+        ///C Z
+        ///A Z
+        ///B Z
+        ///B Z
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Day2 {
+            get {
+                return ResourceManager.GetString("Day2", resourceCulture);
             }
         }
     }

@@ -1,4 +1,4 @@
-namespace AdventOfCode2022.Tests;
+namespace AdventOfCode2022.Tests.Solutions;
 
 public class Day1Tests
 {
