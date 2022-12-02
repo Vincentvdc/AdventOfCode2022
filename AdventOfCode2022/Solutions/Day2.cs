@@ -12,7 +12,6 @@ public class Day2
     public int SolveChallenge1()
     {
         var games = ParseInput();
-        List<int> results = new();
 
         return games.Select(game => Move.GetMove(game.player).PlayGame(game.opponent)).Sum();
     }
