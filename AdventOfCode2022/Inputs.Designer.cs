@@ -262,37 +262,35 @@ namespace AdventOfCode2022 {
         ///B Z
         ///C Y
         ///A Y
-        ///C Y
-        ///C Y
-        ///A Z
-        ///B Z
-        ///C Z
-        ///C Z
-        ///C Z
-        ///A Z
-        ///C Z
-        ///B X
-        ///C Z
-        ///A Y
-        ///C Z
-        ///C X
-        ///C Y
-        ///C Y
-        ///B Z
-        ///C Z
-        ///C Z
-        ///A X
-        ///C X
-        ///C Z
-        ///C Z
-        ///A Z
-        ///B Z
-        ///B Z
-        /// [rest of string was truncated]&quot;;.
+        ///C  [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Day2 {
             get {
                 return ResourceManager.GetString("Day2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to DPstqDdrsqdDtqrFDJDDrmtsJHflSJCLgCphgHHgRHJCRRff
+        ///BcBGcQzVBVZcvznTTTvZcGTpCRRRfRCggLflHlhhCZpZCj
+        ///vGQnQvnzTzNTTbVnzGBqMqwqDLdPtMmbwqqLLM
+        ///wLRFRqvFsFRjfrHddbdbjzdH
+        ///lcsnSJPSSVVlGmGrHzbbrGNrdzbz
+        ///mSmlnnPlmJmncVDSlSZSlmLBCvtwBvtLCqqswsDBCTWW
+        ///pfqPrPgmmhvqdlsdWq
+        ///nfjHLJfZcLbVtQWWtndhls
+        ///CzJJFLzRzfDwrmggpC
+        ///CWfllmlCDFlZZqMfmFBWmWLJVRLVwNNtRVGPpwtGpqbJ
+        ///jHndndndcjhscnhHNtRbVtLbGpJbRRcb
+        ///HSrvnQzQSMDlLzBCfg
+        ///BQRVbgQQBJBbBtVBSSSRWMQbdNvvRPjZjCCdPLNZNNsNCCzd
+        ///HwpFpnlGpGZWGvjzPd
+        ///FTDmFrrwDpFMtmQVQQcWgc
+        ///VhbPshVDPDFWhW [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Day3 {
+            get {
+                return ResourceManager.GetString("Day3", resourceCulture);
             }
         }
     }
